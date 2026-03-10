@@ -2,52 +2,67 @@
 <html lang="en">
 
 <head>
-    <link rel="stylesheet" href="style.css">
+
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Brian Wannstam</title>
-
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            background: #cfcfcf;
-            text-align: left;
-            padding: 10px;
-        }
-    </style>
+    <title>CV Website</title>
+    <link rel="stylesheet" href="css/style.css">
 </head>
 
 <body>
-    <div class="navbar">
-        <a href="#">Home</a>
-        <a href="#">About</a>
-        <a href="#">Contact</a>
-        <a href="#">Portfolio</a>
-    </div>
-    <h1>Brian Wannstam</h1>
-    <h2>Programmer</h2>
-    <p>Portfolio</p>
-    <div class="button">
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about-me">About Me</a></li>
+                <li><a href="portfolio.html">Portfolio</a></li>
+                <li><a href="#past-experience">Past Experience</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
 
-        <button class="button" onclick="sayHello()">TEST</button>
-    </div>
+    <main>
+        <section id="home">
+            <h1>Welcome to My CV Website!</h1>
+            <!-- Add your home content here -->
+        </section>
 
-    <script>
-        function sayHello() {
-            alert("Hello! Welcome to my website.");
-        }
-    </script>
+        <section id="about-me">
+            <h2>About Me</h2>
+            <p>[REPLACE REPLACE REPLACE]I am a passionate [Your Profession], with expertise in [Your Expertise]. My
+                journey started when I was...
+                and since then, I have gained valuable experience in...</p>
+            <!-- Add your about me content here -->
+        </section>
+
+        <section id="portfolio">
+            <h2>Portfolio</h2>
+            <!-- Add your portfolio content here -->
+        </section>
+
+        <section id="past-experience">
+            <h2>Past Experience</h2>
+            <!-- Add your portfolio content here -->
+        </section>
+
+        <section id="contact">
+            <h2>Contact</h2>
+            <p> Email: bwannstam@gmail.com<br>
+                Phone: +46707903320
+
+            </p>
+            <!-- Add your contact form or details here -->
+        </section>
 
 
-    <div class="container">
-        <p>This is a paragraph on the page.</p>
-    </div>
-    <button class="button" onclick="sayHello()">Click Me</button>
+    </main>
 
-    <img src="Resources/Screenshot 2026-03-10 100525.png" class="full-width">
+    <footer>
+        <p>&copy; 2026 Brian Wannstam. All rights reserved.</p>
+    </footer>
 
-
-
+    <script src="js/script.js"></script>
 </body>
 
 </html>
