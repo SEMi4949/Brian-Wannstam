@@ -12,17 +12,21 @@ header {
     background-color: #333;
     color: white;
     padding: 1em 0;
+
     text-align: center;
 }
 
 
 nav ul {
     list-style-type: none;
+    
     padding: 0;
 }
 
 nav ul li {
     display: inline;
+            border-image: url("../Resources/BoxBorder.png") 8/4px repeat;
+
     margin-right: 15px;
 }
 
@@ -37,7 +41,7 @@ nav ul li a:hover {
 
 main section {
     padding: 1em;
-
+        border-image: url("../Resources/BoxBorder.png") 8/4px repeat;
     border-bottom: 1px solid #ddd;
 }
 
